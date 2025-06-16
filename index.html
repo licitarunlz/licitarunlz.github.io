@@ -12,11 +12,11 @@
 
 <head>
     <meta charset="utf-8">
-    <title>One Page Landing | INSPINIA - Responsive Bootstrap 5 Admin Dashboard</title>
+    <title>LicitAR | Plataforma de Gestión de Licitaciones Públicas</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Inspinia is the #1 best-selling admin dashboard template on WrapBootstrap. Perfect for building CRM, CMS, project management tools, and custom web apps with clean UI, responsive design, and powerful features.">
-    <meta name="keywords" content="Inspinia, admin dashboard, WrapBootstrap, HTML template, Bootstrap admin, CRM template, CMS template, responsive admin, web app UI, admin theme, best admin template">
-    <meta name="author" content="WebAppLayers">
+    <meta name="description" content="LicitAR es una plataforma web diseñada para gestionar procesos de licitación pública en Argentina, promoviendo transparencia, trazabilidad y eficiencia en los procedimientos administrativos del Estado.">
+    <meta name="keywords" content="LicitAR, licitaciones públicas, gestión de licitaciones, transparencia, trazabilidad, eficiencia, administración pública, Argentina, plataforma web">
+    <meta name="author" content="Grupo 2 - Licenciatura en Gestión de la Información, UNLZ">
 
     <!-- App favicon -->
     <link rel="shortcut icon" href="assets/images/favicon.ico">
@@ -33,12 +33,6 @@
 </head>
 
 <body class="bg-body-secondary" data-bs-spy="scroll" data-bs-target="#navbar-example">
-    <!-- Top Alert -->
-    <div class="alert alert-primary top-alert text-center mb-0 rounded-0 alert-dismissible" role="alert">
-        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="alert" aria-label="Close"></button>
-        <div class="fst-italic fw-medium">🚀 INSPINIA 4.x is here! Now with Bootstrap 5, dark mode, and a refreshed UI. Upgrade today for the best experience! <a href="https://wrapbootstrap.com/theme/inspinia-multipurpose-admin-dashboard-template-WB0R5L90S?ref=inspinia" target="_blank" class="fw-semibold fst-normal text-white text-decoration-underline link-offset-3 ms-2">Buy Now!</a></div>
-    </div>
-
     <!-- Header START -->
     <header>
         <!-- Nav START -->
@@ -46,10 +40,10 @@
             <div class="container">
                 <div class="auth-brand mb-0">
                     <a href="index.html" class="logo-dark">
-                        <img src="assets/images/logo-black.png" alt="dark logo" height="32">
+                        <img src="assets/images/logos/Logo_LicitAR_rectangle_small.png" alt="dark logo" height="32">
                     </a>
                     <a href="index.html" class="logo-light">
-                        <img src="assets/images/logo.png" alt="logo" height="32">
+                        <img src="assets/images/logos/Logo_LicitAR_rectangle_small.png" alt="logo" height="32">
                     </a>
                 </div>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -59,7 +53,7 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav fw-medium gap-2 fs-sm mx-auto mt-2 mt-lg-0" id="navbar-example">
                         <li class="nav-item">
-                            <a class="nav-link active" href="#hero">Home</a>
+                            <a class="nav-link active" href="#hero">Inicio</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#services">Services</a>
@@ -83,8 +77,8 @@
 
                     <div>
                         <button class="btn btn-link btn-icon fw-semibold text-body" type="button" id="theme-toggle"> <i class="ti ti-contrast fs-22"></i> </button>
-                        <a href="auth-sign-in.html" class="btn btn-link fw-semibold text-body ps-2">SIGN IN</a>
-                        <a href="auth-sign-up.html" class="btn btn-sm btn-primary">Sign Up</a>
+                        <a href="https://licitarappdev.azurewebsites.net/Usuario/Login" class="btn btn-link fw-semibold text-body ps-2">Iniciar Sesi&oacute;n</a>
+                        <a href="https://licitarappdev.azurewebsites.net/Usuario/Register" class="btn btn-sm btn-primary">Registrarse</a>
                     </div>
                 </div> <!-- end .navbar-collapse-->
 
@@ -116,42 +110,37 @@
                     <!-- Avatar Group -->
                     <div class="avatar-group avatar-group-sm justify-content-center mt-2">
                         <div class="avatar">
-                            <img src="assets/images/users/user-7.jpg" alt="Ava Lee" class="avatar-sm rounded-circle">
+                            <img src="assets/images/users/Emmanuel.png" alt="Emmanuel Federico" class="avatar-sm rounded-circle">
                         </div>
                         <div class="avatar">
-                            <img src="assets/images/users/user-8.jpg" alt="Ethan King" class="avatar-sm rounded-circle">
+                            <img src="assets/images/users/Diego.png" alt="Diego Peppert" class="avatar-sm rounded-circle">
                         </div>
                         <div class="avatar">
-                            <img src="assets/images/users/user-9.jpg" alt="Lucas White" class="avatar-sm rounded-circle">
+                            <img src="assets/images/users/Pablo.png" alt="Pablo Goitisolo" class="avatar-sm rounded-circle">
                         </div>
                         <div class="avatar">
-                            <img src="assets/images/users/user-1.jpg" alt="Lucas White" class="avatar-sm rounded-circle">
-                        </div>
-                        <div class="avatar">
-                            <img src="assets/images/users/user-2.jpg" alt="Lucas White" class="avatar-sm rounded-circle">
+                            <img src="assets/images/users/Frida.png" alt="Frida Narbó" class="avatar-sm rounded-circle">
                         </div>
                     </div>
 
                     <!-- Hero Title -->
                     <h1 class="my-4 fs-36 fw-bold lh-base">
-                        The #1 <span class="text-primary">Admin Dashboard</span> Template on WrapBootstrap –
-                        <span class="fst-italic text-muted">Trusted by Thousands</span>
+                        Plataforma <span class="text-secondary">LicitAR</span> –
+                        <span class="fst-italic text-muted">Transparencia y Eficiencia en Licitaciones Públicas</span>
                     </h1>
 
                     <!-- Hero Description -->
                     <p class="mb-4 fs-sm text-muted lh-lg">
-                        Build powerful, modern web applications with our top-rated Admin Dashboard Template.
-                        Designed for performance, flexibility, and ease of customization, it’s the perfect solution
-                        for startups, agencies, and enterprise teams.
+                        LicitAR es una plataforma web desarrollada como parte del trabajo final de la carrera Licenciatura en Gestión de la Información, en la Universidad Nacional de Lomas de Zamora (UNLZ). Diseñada para gestionar procesos de licitación pública en Argentina, busca promover la transparencia, trazabilidad y eficiencia en los procedimientos administrativos del Estado.
                     </p>
 
                     <!-- Call to Action Buttons -->
                     <div class="d-flex gap-1 gap-sm-2 flex-wrap justify-content-center">
-                        <a class="btn btn-secondary py-2 fw-semibold" href="#">
-                            <i class="ti ti-basket fs-xl me-2"></i>Buy Now!
+                        <a class="btn btn-secondary py-2 fw-semibold" href="https://licitarappdev.azurewebsites.net/">
+                            <i class="ti ti-bulb fs-xl me-2"></i>Visita la DEMO
                         </a>
-                        <a class="btn btn-light py-2 fw-semibold" href="https://wrapbootstrap.com/user/WebAppLayers/message" target="_blank">
-                            <i class="ti ti-confetti fs-xl me-2"></i>Contact Us
+                        <a class="btn btn-light py-2 fw-semibold" href="mailto:licitarunlz@gmail.com" target="_blank">
+                            <i class="ti ti-mail fs-xl me-2"></i>Contactanos
                         </a>
                     </div>
                 </div>
