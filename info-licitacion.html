@@ -2,16 +2,80 @@
 <html lang="es" data-bs-theme="light">
 <head>
     <meta charset="utf-8">
-    <title>¿Qué es una Licitación? | LicitAR</title>
+    <title>LicitAR | Plataforma de Gestión de Licitaciones Públicas</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Información sobre procesos licitatorios en Argentina.">
+    <meta name="description"
+        content="LicitAR es una plataforma web diseñada para gestionar procesos de licitación pública en Argentina, promoviendo transparencia, trazabilidad y eficiencia en los procedimientos administrativos del Estado.">
+    <meta name="keywords"
+        content="LicitAR, licitaciones públicas, gestión de licitaciones, transparencia, trazabilidad, eficiencia, administración pública, Argentina, plataforma web">
+    <meta name="author" content="Grupo 2 - Licenciatura en Gestión de la Información, UNLZ">
+
+    <!-- App favicon -->
     <link rel="shortcut icon" href="assets/images/favicon.ico">
+
+    <!-- Theme Config Js -->
+    <script src="assets/js/config.js"></script>
+
+    <!-- Vendor css -->
     <link href="assets/css/vendors.min.css" rel="stylesheet" type="text/css">
+
+    <!-- App css -->
     <link href="assets/css/app.min.css" rel="stylesheet" type="text/css" id="app-style">
+
 </head>
 <body class="bg-body-secondary">
     <!-- Header START -->
-    <!-- ...copiar header desde index.html... -->
+    <header>
+        <!-- Nav START -->
+        <nav class="navbar navbar-expand-lg py-3 sticky-top" id="landing-navbar">
+            <div class="container">
+                <div class="auth-brand mb-0">
+                    <a href="index.html" class="logo-dark">
+                        <img src="assets/images/logos/Logo_LicitAR_rectangle_small.png" alt="dark logo" height="32">
+                    </a>
+                    <a href="index.html" class="logo-light">
+                        <img src="assets/images/logos/Logo_LicitAR_rectangle_small.png" alt="logo" height="32">
+                    </a>
+                </div>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav fw-medium gap-2 fs-sm mx-auto mt-2 mt-lg-0" id="navbar-example">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#hero">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#services">Nuestros servicios</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#features">Características</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#cta">DEMO</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#documentos">Documentaci&oacute;n</a>
+                        </li>
+                    </ul>
+
+                    <div>
+                        <button class="btn btn-link btn-icon fw-semibold text-body" type="button" id="theme-toggle"> <i
+                                class="ti ti-contrast fs-22"></i> </button>
+                        <a href="https://licitarappdev.azurewebsites.net/Usuario/Login"
+                            class="btn btn-link fw-semibold text-body ps-2">Iniciar Sesi&oacute;n</a>
+                        <a href="https://licitarappdev.azurewebsites.net/Usuario/Register"
+                            class="btn btn-sm btn-primary">Registrarse</a>
+                    </div>
+                </div> <!-- end .navbar-collapse-->
+
+            </div> <!-- end container-->
+        </nav>
+        <!-- Nav END -->
+    </header>
     <!-- Header END -->
 
     <!-- HERO SECTION: Información sobre Licitaciones -->
